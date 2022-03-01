@@ -23,25 +23,17 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
-    //метод dataSource додавання секцій (груп)
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
-    }
+   
     
     //додавання комірок з різною кількістю у секції
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
-            return 2
-        } else {
-            return 4
+            return 15
         }
-        
-    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: idCell) as! MailTableViewCell
-        cell.titleLabel.text = "text"
-        cell.subTitleLabel.text = "subTitleText"
+        //cell.titleLabel.text = "text"
+        //cell.subTitleLabel.text = "subTitleText"
         
       
         return cell
