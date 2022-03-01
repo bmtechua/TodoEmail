@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
-        tableView.register(UINib(nibName: "MailTableViewCell", bundle: nil), forCellReuseIdentifier: idCell)
     }
 
 
@@ -41,6 +40,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: idCell) as! MailTableViewCell
+        cell.titleLabel.text = "text"
+        cell.subTitleLabel.text = "subTitleText"
         
       
         return cell
