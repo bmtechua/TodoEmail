@@ -13,6 +13,8 @@
 		E03056C027CE39A600590259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03056BE27CE39A600590259 /* Main.storyboard */; };
 		E03056C227CE39A800590259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03056C127CE39A800590259 /* Assets.xcassets */; };
 		E03056C527CE39A800590259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03056C327CE39A800590259 /* LaunchScreen.storyboard */; };
+		E03056CE27CE4A6900590259 /* MailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03056CC27CE4A6900590259 /* MailTableViewCell.swift */; };
+		E03056CF27CE4A6900590259 /* MailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03056CD27CE4A6900590259 /* MailTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E03056C127CE39A800590259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E03056C427CE39A800590259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E03056C627CE39A800590259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03056CC27CE4A6900590259 /* MailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTableViewCell.swift; sourceTree = "<group>"; };
+		E03056CD27CE4A6900590259 /* MailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MailTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E03056B827CE39A600590259 /* AppDelegate.swift */,
 				E03056BA27CE39A600590259 /* SceneDelegate.swift */,
 				E03056BC27CE39A600590259 /* ViewController.swift */,
+				E03056CC27CE4A6900590259 /* MailTableViewCell.swift */,
+				E03056CD27CE4A6900590259 /* MailTableViewCell.xib */,
 				E03056BE27CE39A600590259 /* Main.storyboard */,
 				E03056C127CE39A800590259 /* Assets.xcassets */,
 				E03056C327CE39A800590259 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03056CF27CE4A6900590259 /* MailTableViewCell.xib in Resources */,
 				E03056C527CE39A800590259 /* LaunchScreen.storyboard in Resources */,
 				E03056C227CE39A800590259 /* Assets.xcassets in Resources */,
 				E03056C027CE39A600590259 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03056CE27CE4A6900590259 /* MailTableViewCell.swift in Sources */,
 				E03056BD27CE39A600590259 /* ViewController.swift in Sources */,
 				E03056B927CE39A600590259 /* AppDelegate.swift in Sources */,
 				E03056BB27CE39A600590259 /* SceneDelegate.swift in Sources */,
