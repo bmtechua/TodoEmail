@@ -38,10 +38,6 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
       
         return cell
         }
-    //метод dataSource додавання header section
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Section "
-    }
     //методи delegate додавання висоти комірок через tableView.delegate = self -> UITableViewDelegate
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
