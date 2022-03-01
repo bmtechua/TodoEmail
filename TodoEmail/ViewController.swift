@@ -40,13 +40,16 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         }
     //методи delegate додавання висоти комірок через tableView.delegate = self -> UITableViewDelegate
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100.0
+        return 95.0
     }
     //методи delegate вивід після натиснення на комірку didSelectRowAt
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("\(indexPath.row)")
     }
-    
+    //додавання дії при натисненні на деталі
+    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        print("details\(indexPath.row) ")
+    }
     
 }
 
